@@ -1,0 +1,74 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.feedback-form {
+    max-width: 375px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid #2E2F42;
+    border-radius: 8px;
+}
+
+
+
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.email,
+.message {
+    color: #2E2F42;
+    font: inherit;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+}
+
+.email:hover,
+.message:hover {
+    border-color: #000000;
+}
+
+.email:active,
+.email:focus,
+.message:active,
+.message:focus {
+    border-color: #808080;
+}
+
+
+
+.btn {
+    margin: auto;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+
+    color: #FFFFFF;
+    background-color: #4E75FF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    background-color: #6C8CFF;
+}
+
